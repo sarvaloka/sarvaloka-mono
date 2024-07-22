@@ -4,11 +4,11 @@ const Hero = () => {
 	return (
 		<div className={styles.hero}>
 			<div className={styles.wrapper}>
-				<h1>Powering India's Next Generation Industrial Revolution</h1>
+				<h1>{`Powering India's Next Generation Industrial Revolution`}</h1>
 				<h4>
-					We are the most beloved people’s company with a promise to seed
+					{`We are the most beloved people’s company with a promise to seed
 					impacts through fostering innovation and entrepreneurship amongst the
-					youths.
+					youths.`}
 				</h4>
 			</div>
 		</div>
