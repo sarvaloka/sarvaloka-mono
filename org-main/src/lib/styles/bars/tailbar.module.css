@@ -1,0 +1,27 @@
+.tailbar {
+	display: grid;
+	grid-auto-flow: row;
+	border-top: outset 0.2px #eeeeee;
+	background-color: orange;
+	align-items: center;
+}
+
+.block {
+	display: grid;
+	grid-auto-flow: column;
+	background-color: pink;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.links {
+	align-self: self-start;
+}
+
+.note {
+	display: grid;
+	grid-auto-flow: column;
+	background-color: yellow;
+	justify-content: space-around;
+	padding: 16px 0px;
+}
